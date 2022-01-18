@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+  <head>
+    <link href="bootstrap.css" rel="stylesheet" type="text/css"/>
+    <link href="perso_css.css" rel="stylesheet" type="text/css"/>
+    <title>CeilingBreaker</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body class="back">
+    <div class="container">
+      <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand footer" href="accueil.html">Accueil</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active footer"><a href="comparateur_entreprise.html">Entreprises <span class="sr-only">(current)</span></a></li>
+            <li class="active footer"><a href="./formulaire.html">Comparateur  salaire<span class="sr-only">(current)</span></a></li>
+            <li class="active footer"><a href="connexion.html">Connexion<span class="sr-only">(current)</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="jumbotron align footer">
+      <h1>CeilingBreaker</h1>
+      <p>Bienvenue sur notre projet d'IF37!</p><img src="logo.jpeg" width="120px">
+    </div>
+    <div class="panel panel-success">
+      <div class="panel-heading">
+        <h3 class="panel-title footer">Information de connexion</h3>
+      </div>
+      <div class="panel-body">
+          Cette page est une page factice, les fonctionnalités de connexion n'ont pas été développé pour ce prototype.
+          <br>
+          <br>
+        <form role="form" method='get' action='connexion.html'>
+          <div class="form-group">
+            <label for="id">id : </label> <input type='text' id ='id' name='id'>
+            <label for="mdp">Mot de passe : </label> <input type='text' id ='mdp' name='mdp'>
+            <!--<label for="ancienneté">ancienneté : </label> <input type="number" step='any' id='anciennete' name='anciennete' value='0'>-->
+          </div>
+          <!--<label for="doses">doses : </label><input type="number" step='any' id='doses' name='doses' value='1'>-->
+          <button class="btn btn-primary" type="submit">Connexion</button>
+        </form>
+          <br>
+          Pas de compte ? Créez en un dès maintenant :  
+          <form role='form' method='get' action='connexion.html'>
+              <button class="btn btn-primary" type="submit">Créez un compte</button>
+          </form>
+      </div>
+    </div>
+    <!--<div class="panel panel-primary">
+      <div class="panel-heading footer">Fini les inégalités!</div>
+      <div class="panel-body">
+        <div class="align"><button type="submit" class="btn btn-primary footer">Lancez-vous!</button></div>
+      </div>
+    </div>-->
+      <p class="footer">IF37 A21</p>
+      <p class="footer">Suard Corentin, Magnier Louis, Godec Tristan, Gervais Arthur</p>
+    </div>
+    <div class="pub">
+      <div class="panel panel-danger">
+        <div class="panel-heading align footer">Publicité</div>
+        <div class="panel-body">
+          <div class="image"><img src="pub.png" width="200px"><p class="align footer">Dé sonore</p></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
