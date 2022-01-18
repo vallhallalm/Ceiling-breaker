@@ -1,0 +1,49 @@
+.container{
+    margin-top: 80px;
+    background-color: silver;
+    width: 70%;
+    float: right;
+    margin-right: 50px;
+}
+.boutons{
+    margin-bottom: 20px;
+}
+.titrerow{
+      margin-bottom: 80px;  
+}
+.col2{
+    text-align:center;
+}
+.boite{
+    text-align:right;
+}
+.justify{
+    text-align: justify;
+    font-weight: normal;
+}
+.color{
+    background-color: lemonchiffon;
+    border-color: transparent;
+}
+.border{
+    border-width: 2px;
+}
+.align{
+    text-align: center;
+}
+.back{
+    background-color: gray;
+}
+.footer{
+    font-family: Marker Felt;
+}
+.pub{
+    float: left;
+    margin-top: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width:  20%;
+}
+.image{
+    text-align: center;
+}
